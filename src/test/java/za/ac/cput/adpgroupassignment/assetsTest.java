@@ -39,35 +39,33 @@ public class assetsTest {
     // Assets inventory equal test
     @Test
     public void testgullag(){
-        assets modelnr = new assets();
+        assets modelnr = new assets(){};
         assertEquals(200,modelnr.gullag(100,100));
         }
     // Assets Identification test
     @Test
     public void testgullagTurbo(){
-        assets modelnr = new assets();
+        assets modelnr = new assets(){};
         assertNotSame(200,modelnr.gullag(100,100));
     }
     // Failing Assets test
     @Test
     public void testgullagDamage(){
-        System.out.println("TestgullagDamage");
-        assets modelnr = new assets();
-        assertEquals(200,modelnr.gullag(100,10));  
-        
+        assets modelnr = new assets(){};
+        assertEquals(200,modelnr.gullag(100,10));    
     } 
     // Asset timeout test
     @Timeout (60)
     @Test
     public void testgullagPending(){
-        assets modelnr = new assets();
+        assets modelnr = new assets(){};
         assertEquals(200,modelnr.gullag(100,100));    
     } 
     // Disabling test
     @Disabled
     @Test
     public void testgullagBroken(){
-        assets modelnr = new assets();
+        assets modelnr = new assets(){};
         assertEquals(200,modelnr.gullag(100,100));    
     } 
     
