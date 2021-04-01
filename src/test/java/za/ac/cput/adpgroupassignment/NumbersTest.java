@@ -17,9 +17,9 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author User
  */
 public class NumbersTest {
-    private int num1;
-    private int num2;
-    private int num3;
+    private int num1=400;
+    private int num2=400;
+    private int num3=num1+num2;
     
  
     
@@ -35,13 +35,18 @@ public class NumbersTest {
     
     @Test
     public void testEquality() {
-assertEquals(num1,num3);
+assertEquals(num1,num2);
 }
     @Test
     public void testfail(){
-    fail();
+      assertNotEquals(num1,num3);  
+    
     }
-            
+     
+         @Test
+    public void test() {
+assertEquals(num1,num2);
+}    
             
     @AfterEach
     public void tearDown() {

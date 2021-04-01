@@ -10,8 +10,16 @@ package za.ac.cput.adpgroupassignment;
  * @author User
  */
 public class Numbers {
-     private int num1, num2, num3;
+     private int num1 =400, num2=400;
+     private int num3= num1+num2;
 
+     public void  cal(){
+     if (num1 >= num2){
+     System.out.println("num3 does not exist");}
+      else {
+System.out.println("num3 exist" );}
+     }
+     
     public void setNum1(int num1) {
         this.num1 = num1;
     }
