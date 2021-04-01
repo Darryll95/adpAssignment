@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
+import org.junit.jupiter.api.*;
 /**
  *
  * @author darry
@@ -36,11 +36,41 @@ public class assetsTest {
     @AfterEach
     public void tearDown() {
     }
-
+    // Assets inventory equal test
     @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testgullag(){
+        assets modelnr = new assets(){};
+        assertEquals(200,modelnr.gullag(100,100));
+        }
+    // Assets Identification test
+    @Test
+    public void testgullagTurbo(){
+        assets modelnr = new assets(){};
+        assertNotSame(200,modelnr.gullag(100,100));
     }
+    // Failing Assets test
+    @Test
+    public void testgullagDamage(){
+        assets modelnr = new assets(){};
+        assertEquals(200,modelnr.gullag(100,10));    
+    } 
+    // Asset timeout test
+    @Timeout (60)
+    @Test
+    public void testgullagPending(){
+        assets modelnr = new assets(){};
+        assertEquals(200,modelnr.gullag(100,100));    
+    } 
+    // Disabling test
+    @Disabled
+    @Test
+    public void testgullagBroken(){
+        assets modelnr = new assets(){};
+        assertEquals(200,modelnr.gullag(100,100));    
+    } 
     
-}
+    
+    }
+   
+     
+
