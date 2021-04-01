@@ -10,6 +10,9 @@ public class IdAccount {
     private String Surname, Names, Status;
     
     public IdAccount(){
+        this.Surname = Surname;
+        this.Names = Names;
+        this.Status = Status;
 }
     
     public String getSurname(){
