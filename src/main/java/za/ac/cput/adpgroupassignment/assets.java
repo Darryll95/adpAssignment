@@ -11,10 +11,15 @@ package za.ac.cput.adpgroupassignment;
  */
 public class assets {
     
-    public int gullag (int pangborn1,int pangborn2){ 
+       int tut = 300;
         int machines=pangborn1+pangborn2; 
-        System.out.println("Out of 200 vehicles \nthe total earth moving equipment on plant is: "+machines +" Machines");
-        return machines;  
+        if (machines!=tut){
+            System.out.println("Please order new parts");
+        }
+        else{
+          System.out.println("Out of 200 vehicles \nthe total earth moving equipment on plant is: "+machines +" Machines");  
+        }
+        return machines; 
        
     }
   
