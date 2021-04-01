@@ -10,7 +10,7 @@ public class IdentityDocument {
     private String Surname, Names, Sex, CountryOfBirth, Status;
     private int IdentityNumber, DateOfBirth;
     
-    public void getSurname{
+    public void getSurname(){
     return Surname;
 }
     
@@ -18,7 +18,7 @@ public class IdentityDocument {
     this.Surname = Surname;
 }
     
-    public void getNames{
+    public void getNames(){
     return Names;
 }
     
@@ -26,7 +26,7 @@ public class IdentityDocument {
     this.Names = Names;
 }
     
-    public void getSex{
+    public void getSex(){
     return Sex;
 }
     
@@ -34,7 +34,7 @@ public class IdentityDocument {
     this.Sex = Sex;
 }
     
-    public void getCountryOfBirth{
+    public void getCountryOfBirth(){
     return CountryOfBirth;
 }
     
@@ -42,7 +42,7 @@ public class IdentityDocument {
     this.CountryOfBirth = CountryOfBirth;
 }
     
-    public void getStatus{
+    public void getStatus(){
     return Status;
 }
     
@@ -50,7 +50,7 @@ public class IdentityDocument {
     this.Status = Status;
 }
     
-    public void getIdentityNumber{
+    public void getIdentityNumber(){
     return IdentityNumber;
 }
     
@@ -58,13 +58,18 @@ public class IdentityDocument {
     this.IdentityNumber = IdentityNumber;
 }
     
-    public void getDateOfBirth{
+    public void getDateOfBirth(){
     return DateOfBirth;
 }
     
     public void setDateOfBirth(int DateOfBirth){
     this.DateOfBirth = DateOfBirth;
 }
+    
+    @Override
+    public String toString(){
+        return "Surname: " + Surname + "Names: " + Names + "Sex: " + Sex + "Country of Birth: " + CountryOfBirth + "Status: " + Status + "Identity Number: " + IdentityNumber + "Date of Birth: " + DateOfBirth;
+    }
 }
 
 
