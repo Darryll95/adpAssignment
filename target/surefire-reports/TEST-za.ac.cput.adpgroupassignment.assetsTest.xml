@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="za.ac.cput.adpgroupassignment.assetsTest" time="0.02" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="za.ac.cput.adpgroupassignment.assetsTest" time="0.013" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\darry\AppData\Local\Temp\surefire14564724917364593568\surefirebooter16180134881917667801.jar C:\Users\darry\AppData\Local\Temp\surefire14564724917364593568 2021-04-01T15-21-06_156-jvmRun1 surefire3180456322404486176tmp surefire_013442259976734232079tmp"/>
+    <property name="sun.java.command" value="C:\Users\darry\AppData\Local\Temp\surefire11503146070738672484\surefirebooter1406154929494782299.jar C:\Users\darry\AppData\Local\Temp\surefire11503146070738672484 2021-04-01T18-20-01_954-jvmRun1 surefire9394504404818797286tmp surefire_011020733063893100086tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="za.ac.cput.adpgroupassignment.assetsTest"/>
     <property name="surefire.test.class.path" value="C:\Users\darry\OneDrive\Documents\NetBeansProjects\adpgroupAssignment\adpgroupAssignment\target\test-classes;C:\Users\darry\OneDrive\Documents\NetBeansProjects\adpgroupAssignment\adpgroupAssignment\target\classes;C:\Users\darry\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\darry\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\darry\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\darry\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\darry\AppData\Local\Temp\surefire14564724917364593568\surefirebooter16180134881917667801.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\darry\AppData\Local\Temp\surefire11503146070738672484\surefirebooter1406154929494782299.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -57,21 +57,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="za.ac.cput.adpgroupassignment.assetsTest.testgullagDamage" classname="za.ac.cput.adpgroupassignment.assetsTest" time="0.013">
+  <testcase name="za.ac.cput.adpgroupassignment.assetsTest.testgullagDamage" classname="za.ac.cput.adpgroupassignment.assetsTest" time="0.005">
     <failure message="expected: &lt;200&gt; but was: &lt;110&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <200> but was: <110>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
-	at za.ac.cput.adpgroupassignment.assetsTest.testgullagDamage(assetsTest.java:55)
+	at za.ac.cput.adpgroupassignment.assetsTest.testgullagDamage(assetsTest.java:56)
 ]]></failure>
-    <system-out><![CDATA[Out of 200 vehicles 
-the total earth moving equipment on plant is: 110 Machines
+    <system-out><![CDATA[TestgullagDamage
+Please order machine parts!
 ]]></system-out>
   </testcase>
-  <testcase name="za.ac.cput.adpgroupassignment.assetsTest.testgullag" classname="za.ac.cput.adpgroupassignment.assetsTest" time="0.001"/>
+  <testcase name="za.ac.cput.adpgroupassignment.assetsTest.testgullag" classname="za.ac.cput.adpgroupassignment.assetsTest" time="0"/>
   <testcase name="za.ac.cput.adpgroupassignment.assetsTest.testgullagTurbo" classname="za.ac.cput.adpgroupassignment.assetsTest" time="0.001"/>
+  <testcase name="za.ac.cput.adpgroupassignment.assetsTest.testgullagPending" classname="za.ac.cput.adpgroupassignment.assetsTest" time="0"/>
   <testcase name="za.ac.cput.adpgroupassignment.assetsTest.testgullagBroken" classname="za.ac.cput.adpgroupassignment.assetsTest" time="0"/>
-  <testcase name="za.ac.cput.adpgroupassignment.assetsTest.testgullagPending" classname="za.ac.cput.adpgroupassignment.assetsTest" time="0.001"/>
 </testsuite>
